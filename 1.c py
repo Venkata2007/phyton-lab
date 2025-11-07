@@ -1,0 +1,3 @@
+input_string = "This is Data Analysis using Python"
+char_string = list(input_string)
+print(char_string)
