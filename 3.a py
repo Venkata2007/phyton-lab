@@ -1,0 +1,23 @@
+import numpy as np
+a=20
+b=30
+c=np.add(a,b)
+print(c)
+
+arr = np.array([1,2,3,4,5,6])
+print(arr)
+print(arr.shape)
+
+arr1 = np.array([[1,2],[2,3]])
+print(arr1.shape)
+
+arr2 = np.array([[1,2,3],[3,4,5],[5,6,7]])
+print(arr2.shape)
+arr3 = np.greater([21,23,11,180,360,321],100)
+print(arr3)
+arr4 = np.greater_equal([24,64,67,11,67,49],64)
+print(arr4)
+arr5 = np.less([21,23,11,180,360,321],100)
+print(arr5)
+arr6 = np.less_equal([24,64,67,11,67,49],64)
+print(arr6)
